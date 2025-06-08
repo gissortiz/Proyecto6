@@ -1,6 +1,6 @@
-# 🚀 Proyecto 6 - API de Reservas de Servicios
+# 🧘 Proyecto 6 - API de Reservas de Servicios
 
-Este es un proyecto de API REST construida con **Node.js**, **Express** y **MongoDB**, que permite gestionar usuarios, servicios y reservas.  
+Este es un proyecto de API REST construido con **Node.js**, **Express** y **MongoDB**, que permite gestionar usuarios, servicios y reservas.  
 Además, cuenta con autenticación con **JWT** y documentación de API con **Swagger**.
 
 ---
@@ -58,10 +58,11 @@ Además, cuenta con autenticación con **JWT** y documentación de API con **Swa
 ## 📝 Documentación de API
 
 Disponible en:
+Disponible en:
 
-http://localhost:3000/api-docs
+- Local: [http://localhost:3000/api-docs](http://localhost:3000/api-docs)
+- Producción (Render): [https://proyecto6-mzc5.onrender.com/api-docs](https://proyecto6-mzc5.onrender.com/api-docs)
 
----
 
 ## ⚙️ Instalación y ejecución local
 
@@ -79,28 +80,28 @@ SECRET=tu_clave_secreta
 
 npm run dev
 
-🚀 Deploy
+## 🚀 Deploy
 
 ✅ Render:
 
 https://proyecto6-mzc5.onrender.com/api-docs
 
 
-🗂️ Estructura del proyecto
+## 🗂️ Estructura del proyecto
 
 src/
-├── config/
-│   ├── db.js
-│   ├── swagger.js
-├── controllers/
-├── middleware/
-├── models/
-├── routes/
-├── index.js
+- ├── config/
+- │   ├── db.js
+- │   ├── swagger.js
+- ├── controllers/
+- ├── middleware/
+- ├── models/
+- ├── routes/
+- └── index.js
 
-🤝 Autora
+## 🤝 Autora
 
 Gissella Ortiz
-Bootcamp Full Stack Developer
+- Bootcamp Full Stack Developer
 
 
