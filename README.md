@@ -80,11 +80,11 @@ SECRET=tu_clave_secreta
 npm run dev
 
 🚀 Deploy
-El proyecto está preparado para deploy en:
 
-✅ Render
-✅ Railway
-✅ Heroku (opcional, si se desea)
+✅ Render:
+
+https://proyecto6-mzc5.onrender.com/api-docs
+
 
 🗂️ Estructura del proyecto
 
