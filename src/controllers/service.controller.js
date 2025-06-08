@@ -32,6 +32,20 @@ exports.getServices = async (req, res) => {
     }
 };
 
+exports.getServicesById = async (req, res) => {
+
+    try {
+        const servicesById = await Service.findById(req.params.id)
+        return res.json({ servicesById })
+    } catch (error) {
+        return res.status(500).json({
+            msg: 'Hubo un error al obtener el dato del servicio',
+            error: error.message
+        })
+    }
+};
+
+
 exports.updateServiceById = async (req, res) => {
     const { name, description, price, duration, available } = req.body;
     try {
